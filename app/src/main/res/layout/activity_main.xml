@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/rollno"
+        android:layout_width="266dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Roll no"
+        android:inputType="text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="424dp"
+        android:layout_height="67dp"
+        android:background="#6750A3"
+        android:gravity="center"
+        android:text="Student Data"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="263dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rollno" />
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="259dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Gender"
+        android:inputType="text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <EditText
+        android:id="@+id/speciality"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Speciality"
+        android:inputType="text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gender" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="130dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="48dp"
+        android:text="Save"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/speciality" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="365dp"
+        android:layout_height="58dp"
+        android:text="Fetch Student Data"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/save_button"
+        app:layout_constraintVertical_bias="0.588" />
+</androidx.constraintlayout.widget.ConstraintLayout>
