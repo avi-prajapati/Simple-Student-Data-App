@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">⭐Note:</p>
+<p align="left">⭐Note: The purpose of the Simple Student Data App</p>
 
 ###
 
@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">📲</p>
+<p align="left">📲 Easy to use Application build with Java and XML, offering writing and fetch Data.</p>
 
 ###
 
@@ -28,7 +28,7 @@
 
 ###
 
-<p align="left">👩‍🏫 User-Friendly Interface – Easy to use.</p>
+<p align="left">🔢 Give user to Enter Data to store.<br><br>👩‍🏫 User-Friendly Interface – Easy to use.<br><br>📖 User can also fetch data and see the stored Data.<br><br></p>
 
 ###
 
@@ -44,6 +44,6 @@
 
 ###
 
-<p align="left">🔸<br>🔸<br>🔸<br>🔸<br>🔸</p>
+<p align="left">🔸Simple Data App<br>🔸Student Data App<br>🔸Java Application<br>🔸Two Screen App<br>🔸Fetch Data Feature</p>
 
 ###
