@@ -44,6 +44,6 @@
 
 ###
 
-<p align="left">🔸Simple Data App<br>🔸Student Data App<br>🔸Java Application<br>🔸Two Screen App<br>🔸Fetch Data Feature</p>
+<p align="left">🔸Simple Data App<br><br>🔸Student Data App<br><br>🔸Java Application<br><br>🔸Two Screen App<br><br>🔸Fetch Data Feature<br></p>
 
 ###
